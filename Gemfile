@@ -9,7 +9,7 @@ end
 
 # Only loaded if a database.yml file exists for a season
 group :datamapper do
-  gem 'dm-mysql-adapter' # Change this to whatever adapter you need for your database
+  gem 'dm-sqlite-adapter' # Change this to whatever adapter you need for your database
   gem 'dm-core'
   gem 'dm-migrations'
 end
