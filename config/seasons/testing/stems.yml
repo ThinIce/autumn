@@ -8,3 +8,4 @@ Example:
   rejoin: true
   channel: "#yourchannel"
   server: irc.yourircserver.com
+  nick_regex: "[a-zA-Z\\[\\]][a-zA-Z0-9\\-_\\[\\]\\{\\}\\\\|`\\^]+"
