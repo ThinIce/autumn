@@ -1,0 +1,4 @@
+group :steam do
+  # Insert your leaf's gem requirements here
+  gem 'steam-condenser', '0.11.1', :require => 'steam/community/steam_group'
+end

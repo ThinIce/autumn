@@ -1,0 +1,20 @@
+= Steam: An Autumn Leaf
+
+<b>Version 0.1 (29/10/2010)</b>
+
+Author::    ThinIce (mailto:thinice@egc-i.co.uk)
+Copyright:: Copyright (c)2010 ThinIce
+License::   Distributed under the same terms as Ruby.
+
+An Autumn Leaf used to query Steam services and servers via Steam Condenser.
+http://github.com/koraktor/steam-condenser
+
+== Usage
+
+Modify config.yml - insert your steam group name.
+
+!groupmembers = Outputs a total of group members.
+!groupnames = Outputs the names of group members, one per line.
+!groupurl = Outputs the URL for the steam group.
+!steamgaming = Outputs the nicknames of group members currently gaming.
+!steamonline = Outputs the nicknames of group members currently online.
